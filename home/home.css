@@ -1,0 +1,21 @@
+#studentDetails {
+    width: 100px;
+    display: grid;
+    gap: 10px;
+    margin: auto;
+}
+
+#studentDetails * {
+    padding: 5px;
+}
+
+#add {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#add :active {
+    transform: scale(0.98);
+}
